@@ -34,9 +34,6 @@ export function ContactSection() {
     // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 1000))
 
-    // In a real application, you would send the form data to your backend
-    console.log("Form submitted:", formData)
-
     setSubmitMessage("Thank you for your message! I'll get back to you soon.")
     setFormData({ name: "", email: "", subject: "", message: "" })
     setIsSubmitting(false)
