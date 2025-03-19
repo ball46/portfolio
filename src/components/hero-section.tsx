@@ -58,7 +58,7 @@ export function HeroSection() {
                 <span className="border-r-4 border-primary animate-blink"></span>
               </h2>
             </div>
-            <p className="text-lg text-muted-foreground max-w-xl">{profileData.statement.split(".")[0] + "."}</p>
+            <p className="text-lg text-muted-foreground max-w-xl">{profileData.shortStatement}</p>
             <div className="flex flex-wrap gap-4">
               <Button asChild>
                 <Link href="#contact">Contact Me</Link>
